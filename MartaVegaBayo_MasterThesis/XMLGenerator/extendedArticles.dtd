@@ -1,0 +1,13 @@
+<!ELEMENT extendedArticles (extendedArticle*)>
+
+<!ELEMENT extendedArticle (articleId, keywords, abstract, articleBody?, references)>
+
+<!ELEMENT keywords (kwd*)>
+<!ELEMENT kwd (#PCDATA)>
+
+<!ELEMENT abstract (#PCDATA)>
+
+<!ELEMENT articleBody (#PCDATA)>
+
+<!ELEMENT references (referencedArticleId*)>
+<!ELEMENT referencedArticleId (#PCDATA)>

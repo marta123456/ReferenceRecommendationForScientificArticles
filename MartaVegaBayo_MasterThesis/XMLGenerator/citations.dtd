@@ -1,0 +1,13 @@
+<!ELEMENT citations (citation*)>
+
+<!ELEMENT citation (sourceArticleId, referencedArticleId, context, section)>
+
+<!ELEMENT sourceArticleId (#PCDATA)>
+<!ELEMENT referencedArticleId (#PCDATA)>
+
+
+<!ELEMENT context (#PCDATA)>
+
+<!ELEMENT section (sectionType?, sectionTitle, section?)>
+<!ELEMENT sectionType (#PCDATA)>
+<!ELEMENT sectionTitle (#PCDATA)>

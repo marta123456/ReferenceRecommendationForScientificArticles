@@ -1,0 +1,19 @@
+<!ELEMENT articles (article*)>
+
+<!ELEMENT article (articleId, authors, title, pubDate)>
+
+<!ELEMENT articleId (#PCDATA)>
+
+<!ELEMENT authors (author*)>
+<!ELEMENT author (firstname, lastname)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+
+<!ELEMENT title (#PCDATA)>
+
+<!ELEMENT pubDate (year, month, day)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT month (#PCDATA)>
+<!ELEMENT day (#PCDATA)>
+
+
